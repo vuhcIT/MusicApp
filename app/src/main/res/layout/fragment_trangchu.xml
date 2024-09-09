@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    android:fillViewport="true">
+    <LinearLayout
+        android:id="@+id/LinearLayout"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <fragment
+            android:id="@+id/fragmentbanner"
+            android:name="com.example.musicapp.Fragment.Fragment_Baner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <fragment
+            android:id="@+id/fragmentplaylist"
+            android:name="com.example.musicapp.Fragment.Fragment_Playlist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <fragment
+            android:id="@+id/fragmentalbumhot"
+            android:name="com.example.musicapp.Fragment.Fragment_Albumhot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <fragment
+            android:id="@+id/fragmentchude"
+            android:name="com.example.musicapp.Fragment.Fragment_Chude_Theloai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <fragment
+            android:id="@+id/fragmenttheloai"
+            android:name="com.example.musicapp.Fragment.Fragment_TheLoai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <fragment
+            android:id="@+id/fragmentbaihatyeuthich"
+            android:name="com.example.musicapp.Fragment.Fragment_BaiHatYeuThich"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+
+<!--        <TextView-->
+<!--            android:background="@color/design_default_color_error"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="300dp"/>-->
+        </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
